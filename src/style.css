@@ -1,0 +1,14 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+}
+nav {
+    margin: 0;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 8px 10px whitesmoke;
+    height:  70px;
+}
