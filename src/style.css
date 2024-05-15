@@ -1,14 +1,119 @@
 * {
-    box-sizing:border-box;
+  box-sizing: border-box;
 }
 body {
-    margin: 0;
+  margin: 0;
+  font-family: poppins, sans-serif;
 }
 nav {
-    margin: 0;
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
-    box-shadow: 5px 8px 10px whitesmoke;
-    height:  70px;
+  margin: 0;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 8px 10px whitesmoke;
+  height: 70px;
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+.hero {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.hero--grid-img {
+  display: flex;
+  flex-direction: column;
+  margin-left: 77px;
+  margin-top: 96px;
+}
+
+.hero--header {
+  width: 347px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #000000;
+}
+.hero--text {
+  width: 320px;
+  height: 56px; 
+  font-weight: 300;
+  font-size: 16px;
+  color: #222222;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+.card {
+  margin-left: 16px;
+  margin-top: 50px;
+  width: 176px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  height: 235px;
+  border-radius: 9px;
+}
+.card--stats {
+  display: flex;
+  align-items: center;  
+}
+span {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.card--star {
+  width: 14px;
+  height: 14px;
+}
+.gray {
+  color: gray;
+}
+.bold {
+  font-weight: bold;
+}
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact--phone {
+  display: flex;
+  align-items: center;
+}
+
+.contact--phone > img {
+  width: 20px;
+  margin-right: 10px;
+}
+p {
+  margin: 0px;
+}
+.contact--email {
+  display: flex;
+  align-items: center ;
+}
+.contact--email > img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.contact--card-photo {
+  width: 250px;
+  height: 222px;
+  border-radius: 8px;
+}
+
+.contact--card {
+  padding: 20px;
+  width: 300px; 
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px 10px whitesmoke;
 }
