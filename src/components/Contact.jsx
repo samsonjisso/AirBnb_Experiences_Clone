@@ -1,6 +1,5 @@
-import yocat from "../assets/cat_img1.jpg"
-import phoneIcon from "../assets/phone_icon.png"
-import emailIcon from "../assets/email_icon.png"
+import phoneIcon from "/assets/phone_icon.png"
+import emailIcon from "/assets/email_icon.png"
 
 export default function Contact(/*props*/ {img, name, phone, email}) {
     return (

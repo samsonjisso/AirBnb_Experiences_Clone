@@ -39,21 +39,29 @@ nav {
 }
 .hero--text {
   width: 320px;
-  height: 56px; 
+  height: 56px;
   font-weight: 300;
   font-size: 16px;
   color: #222222;
 }
+
+section {
+  margin-top: 24px;
+  margin-left: 30px;
+}
 .cards {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 20px;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
 .card {
-  margin-left: 16px;
-  margin-top: 50px;
   width: 176px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
   font-size: 12px;
+  position: relative;
 }
 
 .card--image {
@@ -63,7 +71,21 @@ nav {
 }
 .card--stats {
   display: flex;
-  align-items: center;  
+  align-items: center;
+}
+.card--bage {
+  position: absolute;
+  padding: 2px;
+  align-items: center;
+  display: flex;
+  width: auto;
+  height: 20px;
+  left: 6px;
+  top: 6px;
+  background-color: white;
+}
+.card--bage > h3 {
+  margin: 0;
 }
 span {
   margin-left: 2px;
@@ -97,7 +119,7 @@ p {
 }
 .contact--email {
   display: flex;
-  align-items: center ;
+  align-items: center;
 }
 .contact--email > img {
   width: 20px;
@@ -112,7 +134,7 @@ p {
 
 .contact--card {
   padding: 20px;
-  width: 300px; 
+  width: 300px;
   margin: 20px;
   border-radius: 10px;
   box-shadow: 2px 2px 20px 10px whitesmoke;
